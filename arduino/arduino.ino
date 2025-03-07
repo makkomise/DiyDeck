@@ -81,7 +81,7 @@ void buttons() {
           if (i != 0) {
             for (int j = 0; j < NUM_LEDS; j++) {
               if (j != ledIndex[i] && j != ledIndex[0]) {  // Keep the first button LED separate
-                  leds[j] = CRGB(25, 0, 0);  // Change other LEDs to RED
+                  leds[j] = CRGB(0, 25, 0);  // Change other LEDs to RED
               }
             } 
           } else {
@@ -93,7 +93,7 @@ void buttons() {
         if (i == 0) {
           leds[ledIndex[i]] = firstButtonState ? CRGB(255, 0, 0) : CRGB(0, 0, 0);  // Toggle between red and off
         } else {
-          leds[ledIndex[i]] = CRGB(0, 50, 0);  // Green for other buttons
+          leds[ledIndex[i]] = CRGB(50, 0, 0);  // buttons 1-6 go red when pressed
         }
 
           FastLED.show();
