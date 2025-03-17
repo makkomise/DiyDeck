@@ -1,5 +1,5 @@
 # DiyDeck
- Stream Deck alternative for DIY-spirited people! This has 5 Analog Pots and 7 buttons that you can configure freely to whatever. 
+ Stream Deck alternative for DIY-spirited people! This has 5 Pots and 7 buttons that you can configure freely to whatever. 
  Case is 3d-printed, and fits Arduino Pro Micro clones nicely. Case files are in the STL-folder, i will update and put firmware to repository aswell when i'm 100% happy with it.
 
  ## Bill Of Materials
